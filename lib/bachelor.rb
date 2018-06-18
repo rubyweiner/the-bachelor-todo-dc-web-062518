@@ -11,6 +11,9 @@ end
 
 def get_contestant_name(data, occupation)
   data[occupation].each do |contestant|
+    contestant.each do |k, v|
+      
+    end
   end
 end
 
